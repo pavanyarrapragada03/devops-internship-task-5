@@ -25,8 +25,8 @@ The objective is to create a multi-pod NGINX deployment and make it accessible f
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
+    git clone [https://github.com/pavanyarrapragada03/devops-internship-task-5.git](https://github.com/pavanyarrapragada03/devops-internship-task-5.git)
+    cd devops-internship-task-5
     ```
 
 2.  **Start the Minikube Cluster**
@@ -67,7 +67,7 @@ Here are some useful commands to check the status of your deployment.
     ```bash
     # First, get the pod name with `kubectl get pods`
     # Then, use the name in the command below
-    kubectl describe pod <your-pod-name>
+    kubectl describe pod my-nginx-deployment-5564bc5c84-856dd
     ```
 
 ---
@@ -76,4 +76,4 @@ Here are some useful commands to check the status of your deployment.
 Here is a screenshot of the NGINX welcome page running successfully after being accessed through the Minikube service.
 
 
-*Add your screenshot here by creating a folder named `screenshots`, adding your image to it, and referencing it like this: `![NGINX Welcome Page](screenshots/your-image-name.png)`*
+*Add your screenshot here by creating a folder named `screenshots`, adding your image to it, and referencing it like this: `![NGINX Welcome Page]`*
